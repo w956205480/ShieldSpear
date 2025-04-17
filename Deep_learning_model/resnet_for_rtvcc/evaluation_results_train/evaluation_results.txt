@@ -1,0 +1,32 @@
+Encoder Evaluation Results
+==================================================
+
+LSTM Encoder:
+--------------------
+AUC: 0.8466
+EER: 0.1974
+Average Inference Time: 0.0423 seconds
+
+Similarity Statistics:
+Min: 0.3308
+Max: 0.9572
+Mean: 0.6647
+Std: 0.1415
+
+ResNet Encoder:
+--------------------
+AUC: 0.9678
+EER: 0.0756
+Average Inference Time: 0.0296 seconds
+
+Similarity Statistics:
+Min: -0.3273
+Max: 0.9948
+Mean: 0.4794
+Std: 0.3585
+
+Performance Comparison:
+--------------------
+AUC Improvement: 0.1212
+EER Improvement: 0.1218
+Speed Improvement: 1.43x

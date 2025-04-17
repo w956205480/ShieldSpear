@@ -1,0 +1,3 @@
+#!/data/data_zzz/Real-Time-Voice-Cloning/RTVC/bin/python
+from numba.pycc import main
+main()
